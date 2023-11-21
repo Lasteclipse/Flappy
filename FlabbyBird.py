@@ -194,7 +194,7 @@ def main(genomas, config):
             redes.append(rede)
             genoma.fitness = 0
             lista_genomas.append(genoma)
-            passaros.append([Passaro(230, 350)])
+            passaros.append(Passaro(230, 350))
             
     else: 
         passaros = [Passaro(230, 350)]
